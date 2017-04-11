@@ -1,0 +1,9 @@
+this.metaClass.mixin(new GroovyScriptEngine('scripts').with {
+    loadScriptByName('script.groovy')
+})
+
+this.printGradleVersion()
+
+    
+
+include "module1"
